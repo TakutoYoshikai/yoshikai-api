@@ -10,8 +10,8 @@ pip3 install git+https://github.com/TakutoYoshikai/yoshikai-api.git
 **example**
 ```python
 from yoshikai import yoshikai
-yoshikai.get_ja() # fetch Japanese ver.
-yoshikai.get_en() # fetch English ver.
+works = yoshikai.get_ja() # fetch Japanese ver.
+works = yoshikai.get_en() # fetch English ver.
 ```
 
 ### License
