@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
-def get_ja():
+def ja():
     return get("https://yoshikai.net")
 
-def get_en():
+def en():
     return get("https://yoshikai.net/en")
 
 
