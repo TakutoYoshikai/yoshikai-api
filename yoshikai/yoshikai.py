@@ -7,7 +7,6 @@ def ja():
 def en():
     return get("https://yoshikai.net/en")
 
-
 def get(site_url):
     html = requests.get(site_url)
     soup = BeautifulSoup(html.text, "html.parser")
